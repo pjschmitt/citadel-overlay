@@ -6,8 +6,8 @@ EAPI=4
 
 inherit flag-o-matic
 
-MY_LIBV="3"
-S="${WORKDIR}/${PN}-${MY_LIBV}.${PV}"
+#MY_LIBV="3"
+S="${WORKDIR}/${PN}-${PV}"
 
 DESCRIPTION="Code shared across all the components of a Citadel system"
 HOMEPAGE="http://citadel.org/"
